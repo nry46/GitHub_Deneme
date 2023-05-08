@@ -8,6 +8,7 @@ public class ders1 {
         System.out.println("pazartesi");
         System.out.println("sali");
         System.out.println("carsamba");
+        System.out.println("persembe");
 
 
 
