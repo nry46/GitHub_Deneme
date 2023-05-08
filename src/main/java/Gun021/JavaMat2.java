@@ -1,0 +1,29 @@
+package Gun021;
+
+public class JavaMat2 {
+    public static void main(String[] args) {
+
+        //  {{1,2,3}, {2,3,1} , {5,5,5} , {2,10,3}}  int 2D arrayini  olustur
+        //   2D arrayinden max number print et
+
+
+        int [][] array={{1,2,3}, {2,3,1} , {5,5,5} , {2,10,3}};
+
+        int max=array [0] [0];
+
+        for (int i=0;i<array.length;i++) {
+            for (int j = 0; j <array[i].length; j++)
+            {
+                if (array[i][j] > max)
+                    max = array[i][j];
+            }
+        }
+
+        System.out.println(max);
+
+
+
+
+
+    }
+}
